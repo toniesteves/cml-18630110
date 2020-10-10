@@ -1,0 +1,94 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+#
+1 19 conditions
+19 2 Conexão de rede ativa. Menu Principal (seleciona a Opção 1 – Encontrar Trajeto(s)de ativa)
+2 20 steps
+20 3 Usuário Informa o nome da estação de origem
+3 21 expected_results
+21 4 system Valida o nome da estação de origem
+4 22 steps
+22 5 Usuário Informa o nome da estação de destino
+5 23 expected_results
+23 6 system Valida o nome da estação de destino
+6 24 steps
+24 7 Usuário Informa a quantidade de trajetos
+7 25 expected_results
+25 8 system Valida a quantidade de trajetos
+8 26 steps
+26 9 Usuário Deseja S/N excluir a linha de trajeto
+9 27 expected_results
+27 10 system Registra a escolha da exclusão da linha de trajetos
+10 28 steps
+28 11 Usuário Excluir apenas o nome da linha de trajetos
+11 29 expected_results
+29 12 system Exibe cada um dos trajetos menores das estação entre a origem e destino
+12 30 conditions
+30 13 retornando ao Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+2 31 steps
+31 14 Usuário Informa Esc para Cancela a consulta
+14 32 expected_results
+32 13 system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+3 33 expected_results
+33 2 system Alerta e solicita o nome da estação de origem
+4 34 steps
+34 15 Usuário Informa Esc para Cancela a consulta
+15 35 expected_results
+35 13 system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+5 36 expected_results
+36 4 system Alerta e solicita o nome da estação de destino
+6 37 steps
+37 16 Usuário Informa Esc para Cancela a consulta
+16 38 expected_results
+38 13 system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+8 39 steps
+39 17 Usuário Informa Esc para Cancela a consulta
+17 40 expected_results
+40 13 system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+10 41 steps
+41 11 Usuário Indique o nome da linha de trajeto a ser removidar
+10 42 steps
+42 18 Usuário Informa Esc para Cancela a consulta
+18 43 expected_results
+43 13 system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)

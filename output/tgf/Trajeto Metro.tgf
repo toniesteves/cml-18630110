@@ -1,0 +1,44 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+#
+1 2 [c] Conexão de rede ativa. Menu Principal (seleciona a Opção 1 – Encontrar Trajeto(s)de ativa)
+2 3 [s] Usuário Informa o nome da estação de origem
+3 4 [e] system Valida o nome da estação de origem
+4 5 [s] Usuário Informa o nome da estação de destino
+5 6 [e] system Valida o nome da estação de destino
+6 7 [s] Usuário Informa a quantidade de trajetos
+7 8 [e] system Valida a quantidade de trajetos
+8 9 [s] Usuário Deseja S/N excluir a linha de trajeto
+9 10 [e] system Registra a escolha da exclusão da linha de trajetos
+10 11 [s] Usuário Excluir apenas o nome da linha de trajetos
+11 12 [e] system Exibe cada um dos trajetos menores das estação entre a origem e destino
+12 13 [c] retornando ao Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+2 14 [s] Usuário Informa Esc para Cancela a consulta
+14 13 [e] system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+3 2 [e] system Alerta e solicita o nome da estação de origem
+4 15 [s] Usuário Informa Esc para Cancela a consulta
+15 13 [e] system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+5 4 [e] system Alerta e solicita o nome da estação de destino
+6 16 [s] Usuário Informa Esc para Cancela a consulta
+16 13 [e] system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+8 17 [s] Usuário Informa Esc para Cancela a consulta
+17 13 [e] system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
+10 11 [s] Usuário Indique o nome da linha de trajeto a ser removidar
+10 18 [s] Usuário Informa Esc para Cancela a consulta
+18 13 [e] system Fecha a consulta de trajeto e retorna Menu Principal (Metrô de Londres - Planeje seu Trajeto)
